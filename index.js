@@ -123,8 +123,6 @@ function parseDetails(details, folder) {
  * Main worker to change files if needs be
  */
 async function changeFiles() {
-    console.log("enter files");
-    let reg = /from ['"]([^'"]*)['"]/g;
     for(let key in files) {
         let details = fs.readFileSync(files[key].full).toString();
         if (details === null || details === "") continue; 
