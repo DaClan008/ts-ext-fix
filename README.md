@@ -4,6 +4,11 @@ Fixing import extensions for ES6 purpose on javascript files after being generat
 
 ## Usage
 
+Install:
+```console
+npm install ts-ext-fix
+```
+
 Within Javascript
 ```js
 import {recompile} from "ts-ext-fix";
